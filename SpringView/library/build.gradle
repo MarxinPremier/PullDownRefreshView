@@ -66,7 +66,7 @@ dependencies {
 //    }
 //}
 
-task sourcesJar(type: Jar) {
+/*task sourcesJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs
     classifier = 'sources'
 }
@@ -82,7 +82,7 @@ task javadocJar(type: Jar, dependsOn: javadoc) {
 artifacts {
     archives javadocJar
     archives sourcesJar
-}
+}*/
 //Properties properties = new Properties()
 //properties.load(project.rootProject.file('local.properties').newDataInputStream())
 //bintray {
